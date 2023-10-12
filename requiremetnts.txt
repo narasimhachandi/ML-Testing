@@ -1,0 +1,5 @@
+python
+numpy
+sciket-learn
+streamlit
+pickle
