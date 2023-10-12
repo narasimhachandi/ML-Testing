@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-model = pickle.load(open('C:/Users/Amit/Desktop/ML-Heroku/Random_Forest.pkl','rb'))
+model = pickle.load(open('Random_Forest.pkl','rb'))
 
 def diabetes_prediction(data):
     prediction = model.predict([data])
